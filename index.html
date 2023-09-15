@@ -11,14 +11,14 @@
         - numpy
         - scikit-learn
         - paths:
-            - /dtsync/RandomForestClassifi.pk1
+            - ./dtsync/RandomForestClassifi.pk1
     </py-env>
     <py-script>
         import numpy as np
         import warnings
         warnings.filterwarnings("ignore")
         import pickle
-        model = pickle.load(open('dtsync/RandomForestClassifi.pk1' , 'rb'))
+        model = pickle.load(open('RandomForestClassifi.pk1' , 'rb'))
         def predict(inputs):
             output = model.predict(inputs.reshape(1, -1))[0]
             return int(output)
