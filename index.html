@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
   </head>
   <body>
     <py-env>
@@ -36,8 +37,14 @@
                 Element('turbidity').element.value
             ]
             inputs=np.array(input_list)
-            print(predict(inputs))
-            document.getElementById('op').innerHTML = str(predict(inputs))
+            result = predict(inputs)
+            if result==0:
+                alertify.alert('Potability Prediction', 'The water with above parameters is not potable.', function(){ alertify.success('Ok'); });
+                document.getElementById('op').innerHTML = "The water with above parameters is not potable." 
+            else:
+                alertify.alert('Potability Prediction', 'The water with above parameters is potable.', function(){ alertify.success('Ok'); });
+                document.getElementById('op').innerHTML = "The water with above parameters is potable." 
+            
     </py-script>
     <div class="container mt-5">
         <h2>Water Quality Information</h2>
@@ -83,6 +90,7 @@
         </form>
     </div>
     <!-- Bootstrap JS and dependencies (optional) -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
