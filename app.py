@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import warnings
+warnings.filterwarnings("ignore")
 
 # Load the trained machine learning model
 model = pickle.load(open('RandomForestClassifi.pk1' , 'rb'))
