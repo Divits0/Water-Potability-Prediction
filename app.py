@@ -30,8 +30,11 @@ def main():
 
     # Create input fields for 9 numerical inputs
     inputs = []
+    min_limit=[0,0,0,0,0,0,0,0,0]
+    max_limit=[14,400,65000,14,500,800,30,120,7]
+
     for i in range(9):
-        inputs.append(st.number_input(f'{p_name[i]}', min_value=0.0))
+        inputs.append(st.number_input(f'{p_name[i]}', min_value=min_limit[i],max_value=max_limit[i]))
 
     # Create a button to trigger the prediction
     if st.button('Predict'):
