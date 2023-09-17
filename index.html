@@ -60,39 +60,39 @@
         <form onsubmit="return false">
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="ph">📌 pH</label>
-                <input type="number" step="0.01" class="form-control" id="ph" name="ph" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="ph" name="ph" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="hardness">📌 Hardness</label>
-                <input type="number" step="0.01" class="form-control" id="hardness" name="hardness" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="hardness" name="hardness" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="solids">📌 Solids</label>
-                <input type="number" step="0.01" class="form-control" id="solids" name="solids" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="solids" name="solids" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="chloramines">📌 Chloramines</label>
-                <input type="number" step="0.01" class="form-control" id="chloramines" name="chloramines" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="chloramines" name="chloramines" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="sulfate">📌 Sulfate</label>
-                <input type="number" step="0.01" class="form-control" id="sulfate" name="sulfate" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="sulfate" name="sulfate" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="conductivity">📌 Conductivity</label>
-                <input type="number" step="0.01" class="form-control" id="conductivity" name="conductivity" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="conductivity" name="conductivity" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="organic_carbon">📌 Organic Carbon</label>
-                <input type="number" step="0.01" class="form-control" id="organic_carbon" name="organic_carbon" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="organic_carbon" name="organic_carbon" required min="0" oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="trihalomethanes">📌 Trihalomethanes</label>
-                <input type="number" step="0.01" class="form-control" id="trihalomethanes" name="trihalomethanes" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="trihalomethanes" name="trihalomethanes" required min="0"  oninput="validity.valid||(value='');">
             </div>
             <div class="form-group">
                 <label style="font-weight: 600;color:lime;font-size:23;" for="turbidity">📌 Turbidity</label>
-                <input type="number" step="0.01" class="form-control" id="turbidity" name="turbidity" required min="0">
+                <input type="number" step="0.000001" class="form-control" id="turbidity" name="turbidity" required min="0" oninput="validity.valid||(value='');">
             </div>
             <input type="button" pys-onClick="get_input" id="ss" class="btn btn-primary" value="Submit">
             <!-- <h1 id="op"></h1> -->
