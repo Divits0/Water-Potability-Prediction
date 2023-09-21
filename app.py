@@ -46,7 +46,7 @@ def main():
         probability = get_proba(inputs)
         if output == 0.0:
             # st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
-            st.write(f'Predicted Output: The water with above parameters is not potable. (Probability : {probability[0]*100}%)')
+            st.write(f'Predicted Output: The water with above parameters is not potable. (Probability : {100-probability[0]*100}%)')
         else:
             st.write(f'Predicted Output: The water with above parameters is potable. (Probability : {100-probability[0]*100}%)')
         # st.write(f'Predicted Output: {output}')
