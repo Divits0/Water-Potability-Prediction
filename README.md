@@ -21,3 +21,5 @@ Whether water is utilized for drinking, household usage, food production, or rec
 ## Model: ![]()
 
 ## App: ![]()
+
+https://github.com/Divits0/Water-Potability-Prediction/raw/main/Water%20Potability%20Prediction%20using%20machine%20learning.mp4
