@@ -16,7 +16,7 @@ def predict(inputs):
     return output
 
 def get_proba(inputs):
-    output = model.predict_proba(inputs.values.reshape(1, -1))[1]
+    output = model.predict_proba(inputs.values.reshape(1, -1))[0]
     return output
 
 p_name = ["ph(0-14)","Hardness(0 mg/l - 400 mg/l)","Solids(0 mg/l - 65000 mg/l)","Chloramines(0 mg/l - 14 mg/l)","Sulfate(0 mg/l - 500 mg/l)"
