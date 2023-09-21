@@ -17,3 +17,14 @@ Whether water is utilized for drinking, household usage, food production, or rec
 ## System Architecure:
 ![Flow](https://github.com/Divits0/Water-Potability-Prediction/assets/61587515/55db0404-6ad8-4400-8b7e-01e5e95ca846)
 
+
+https://github.com/Divits0/Water-Potability-Prediction/assets/61587515/26a2b908-91ee-43df-9f4c-0bbf973bac3f
+
+
+
+https://github.com/Divits0/Water-Potability-Prediction/assets/61587515/72e058fb-fe67-4de7-9ca7-f4e6737e4f6a
+
+
+
+https://github.com/Divits0/Water-Potability-Prediction/assets/61587515/b812dd24-cb75-4bb6-9e01-4f787cab9ddd
+
