@@ -1,25 +1,19 @@
 # Water-Potability-Prediction
 
 ## Links: 
-1 App
-2 Dataset
-3 Model
-4 Video
-5 Article
+1. [App](https://water-potability-prediction.streamlit.app/)
+   
+2. [Dataset](https://www.kaggle.com/datasets/adityakadiwal/water-potability)
+   
+3. [Model](https://github.com/Divits0/Water-Potability-Prediction/raw/streamlit/RandomForestClassifi.pk1)
+
+4. [Video](https://youtu.be/frK3LzHn8bE)
+   
+5. [Article]()
 
 ## Introduction
 Whether water is utilized for drinking, household usage, food production, or recreational activities, it is crucial for the public's health to have access to safe, readily available water. Drinking water, also referred to as potable water, is obtained from surface and underground sources and treated to satisfy state and federal criteria for consumption. Natural water is purified to remove viruses, germs, hazardous compounds, feces, and microbes. Consuming raw, untreated water might result in stomach issues including diarrhea, vomiting, or fever. This is an effort to use machine learning to evaluate whether the water that is accessible is drinkable or not.
 
-## System Architecure: ![]()
+## System Architecure:
+![Flow](https://github.com/Divits0/Water-Potability-Prediction/assets/61587515/55db0404-6ad8-4400-8b7e-01e5e95ca846)
 
-## Setup
-1
-2
-3
-4
-
-## Model: ![]()
-
-## App: ![]()
-
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://www.youtube.com/watch?v=frK3LzHn8bE)
