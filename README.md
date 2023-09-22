@@ -1,4 +1,4 @@
-# Water-Potability-Prediction
+
 
 ## Links: 
 1. [App](https://water-potability-prediction.streamlit.app/)
